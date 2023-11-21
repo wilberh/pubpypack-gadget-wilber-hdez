@@ -1,2 +1,2 @@
-fist_word = 'hello'
+first_word = 'hello'
 second_word = 'gadget'
