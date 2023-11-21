@@ -1,6 +1,6 @@
 [project]
 name = "pubpypack-gadget-wilber-hdez"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Wilber Hernandez", email="wilberhdez@gmail.com" },
 ]
