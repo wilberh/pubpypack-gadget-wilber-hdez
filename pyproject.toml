@@ -1,0 +1,22 @@
+[project]
+name = "pubpypack-gadget-wilber-hdez"
+version = "0.0.1"
+authors = [
+  { name="Wilber Hernandez", email="wilberhdez@gmail.com" },
+]
+description = "My first Python package"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/wilberh/pubpypack-gadget-wilber-hdez"
+Issues = "https://github.com/wilberh/pubpypack-gadget-wilber-hdez/issues"
