@@ -38,6 +38,8 @@ jobs:
           path: ./dist/*
   publish-job:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write # This is required for requesting the JWT / PyPI Trusted publishing exchange
     needs: [build-job] # will be fired if and only if build-job is passed                  
     steps:
         - name: Setup Python 3.10 environment
