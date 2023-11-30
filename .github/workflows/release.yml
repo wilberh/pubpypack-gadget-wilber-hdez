@@ -65,7 +65,8 @@ jobs:
         - name: Display structure of downloaded files
           run: ls -R
           working-directory: ./dist/
-        - name: Publish package to TestPyPI (uses twine under the hood)
+        - name: 'Publish package to TestPyPI (uses twine under the hood) / 
+                Publishing with OpenID Connect to PyPI Trusted publishing exchange'
           uses: pypa/gh-action-pypi-publish@release/v1
           with:
             repository-url: https://test.pypi.org/legacy/
