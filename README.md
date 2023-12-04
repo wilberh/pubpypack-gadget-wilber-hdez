@@ -22,7 +22,7 @@ $ python -m pip install -i https://test.pypi.org/simple/ pubpypack-gadget-wilber
 - Sample pyproject.toml metadata file,
     - https://packaging.python.org/en/latest/tutorials/packaging-projects/#configuring-metadata
 
-- Writing Your pyproject.toml file, 
+- Writing Your pyproject.toml file,
     - https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#writing-your-pyproject-toml
 
 ##### note: used virtualenv to create isolated Python environment
