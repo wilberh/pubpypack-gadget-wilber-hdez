@@ -15,7 +15,7 @@ $ python -m pip install -i https://test.pypi.org/simple/ pubpypack-gadget-wilber
 ```
 
 ## Meetup presentation slides
-- you can access slides at,
+- You can access slides at,
     - https://github.com/wilberh/pubpypack-gadget-wilber-hdez-slides/tree/main
 
 ## pyproject.toml metadata
